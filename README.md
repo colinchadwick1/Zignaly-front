@@ -1,6 +1,6 @@
 Clone both repositories to your local machine
-Zignaly-front
-Zignaly-back
+1. Zignaly-front
+2. Zignaly-back
 
 Zignaly-front
 
