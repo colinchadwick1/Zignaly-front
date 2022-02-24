@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import axios from "axios";
 import { Link } from "react-router-dom";
 import loader from "../images/loader.gif";
+import Head from "../components.js/Head";
 
 function PhoneListContainer(props) {
   const [data, setData] = useState({});
@@ -26,7 +27,7 @@ function PhoneListContainer(props) {
         </>
       ) : (
         <>
-          <h1 className="title"> Zignaly's Phone Shop</h1>
+<Head/>
           <div className="wrap">
             {data.map((phone) => {
               return (
