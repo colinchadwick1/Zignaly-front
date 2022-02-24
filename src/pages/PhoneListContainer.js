@@ -27,16 +27,16 @@ function PhoneListContainer(props) {
         </>
       ) : (
         <>
-<Head/>
+          <Head />
           <div className="wrap">
             {data.map((phone) => {
               return (
-                <div className="card">
+                <div key={phone.id} className="card">
                   <div className="card text-center">
                     <img
                       class="card-img-top"
                       src={phone.image}
-                      alt="Card image cap"
+                      alt="Card  cap"
                     />
                     <div class="card-body">
                       <h5 class="card-title">{phone.name}</h5>

@@ -4,7 +4,6 @@ import { Link } from "react-router-dom";
 import Head from "../components.js/Head";
 
 function PhoneDetailComponent() {
-  const API_URI = process.env.REACT_APP_API_URI;
   const location = useLocation();
   const { individualPhone } = location.state;
 
