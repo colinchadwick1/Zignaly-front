@@ -7,7 +7,7 @@ import Head from "../components.js/Head";
 function PhoneListContainer(props) {
   const [data, setData] = useState({});
   const [isLoading, setIsLoading] = useState(true);
-  const API_URI = process.env.REACT_APP_API_URI;
+  const API_URI = "http://localhost:5005";
 
   useEffect(() => {
     axios
